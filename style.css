@@ -1,0 +1,290 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #f6f6f6;
+  padding: 40px;
+}
+
+.profile-box {
+  max-width: 500px;
+  margin: 0 auto;
+  background: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.profile-header {
+  background: #444;
+  color: white;
+  text-align: center;
+  padding: 12px 0;
+}
+
+.profile-header h2 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.profile-header p {
+  margin: 4px 0 0;
+  font-size: 0.9rem;
+  color: #ddd;
+}
+
+.profile-image img {
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #ccc;
+}
+
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.info-table th {
+  background-color: #f0f0f0;
+  text-align: left;
+  padding: 10px;
+  width: 30%;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+  color: #333;
+}
+
+.info-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.info-table a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.info-table a:hover {
+  text-decoration: underline;
+}
+
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #f6f6f6;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #00b2a4, #28b966);
+  padding: 10px 20px;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #f6f6f6;
+}
+
+.page-container {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+.title-box h1 {
+  font-size: 2rem;
+  margin-bottom: 4px;
+}
+
+.edit-time {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 24px;
+}
+
+.category-box {
+  background-color: #fff;
+  padding: 12px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.category-box span {
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.category-box a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.category-box a:hover {
+  text-decoration: underline;
+}
+
+.gray-info-box {
+  background-color: #444;
+  color: #fff;
+  padding: 14px 20px;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+.gray-info-box a {
+  color: #aeeaff;
+  text-decoration: underline;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  gap: 8px;
+}
+
+.menu a {
+  margin-right: 16px;
+  text-decoration: none;
+  color: white;
+  font-size: 0.95rem;
+}
+
+.menu i {
+  margin-right: 6px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 4px 8px;
+  border-radius: 6px;
+  gap: 6px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  font-size: 0.9rem;
+  width: 140px;
+}
+
+.search-box button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  font-size: 1rem;
+}
+
+.user-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .search-box input {
+    width: 100px;
+  }
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 15px;
+  background-color: #f6f6f6;
+  color: #202020;
+  margin: 0;
+  padding: 20px;
+}
+
+.wiki-container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.wiki-title {
+  font-size: 32px;
+  font-weight: 600;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+.wiki-box {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.wiki-overview {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.wiki-img {
+  width: 230px;
+  max-width: 100%;
+  border: 1px solid #ddd;
+  background-color: #eee;
+}
+
+.wiki-text {
+  flex: 1;
+  min-width: 240px;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .wiki-overview {
+    flex-direction: column;
+  }
+
+  .wiki-title {
+    text-align: center;
+  }
+
+  .wiki-text {
+    text-align: center;
+  }
+}
